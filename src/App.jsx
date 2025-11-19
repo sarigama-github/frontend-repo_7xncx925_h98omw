@@ -33,7 +33,7 @@ function App() {
   const clearCart = () => setCart([])
 
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-yellow-100 to-yellow-200 text-red-900">
       <Header cartCount={cart.length} onCartToggle={() => setCartOpen(!cartOpen)} />
       <main>
         <Banner />
@@ -43,7 +43,7 @@ function App() {
         <Reviews />
       </main>
       <CartDrawer open={cartOpen} items={cart} onClose={()=> setCartOpen(false)} onRemove={removeFromCart} onUpdateQty={updateQty} onClear={clearCart} />
-      <footer className="bg-red-950 border-t border-yellow-500/30 py-6 text-center text-yellow-200">© {new Date().getFullYear()} Kuse Royale. All rights reserved.</footer>
+      <footer className="bg-gradient-to-r from-yellow-300 to-yellow-400 border-t border-red-600/20 py-6 text-center text-red-900 font-semibold">© {new Date().getFullYear()} Kuse Royale. All rights reserved.</footer>
     </div>
   )
 }
