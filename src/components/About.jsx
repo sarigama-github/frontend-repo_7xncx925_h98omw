@@ -15,7 +15,7 @@ export default function About() {
         </div>
         <div className="relative">
           <div className="absolute -inset-6 rounded-3xl bg-gradient-to-tr from-yellow-500/20 to-transparent blur-2xl" />
-          <img src="https://images.unsplash.com/photo-1512406134858-486ace1ff238?q=80&w=1400&auto=format&fit=crop" alt="Craftsmanship" className="relative w-full rounded-3xl border border-yellow-500/30 shadow-2xl" />
+          <img src="https://images.unsplash.com/photo-1568288796918-03e7d93306bd?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxDcmFmdHNtYW5zaGlwfGVufDB8MHx8fDE3NjM1MzA0MjB8MA&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80" alt="Craftsmanship" className="relative w-full rounded-3xl border border-yellow-500/30 shadow-2xl" />
         </div>
       </div>
     </section>
